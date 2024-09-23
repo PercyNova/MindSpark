@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Patient - Lifestyle Information</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header id="header">
+            <h1><strong>New Patient</strong></h1>
+        </header>
+
+        <!-- Progress bar -->
+        <div class="progress-bar">
+            <div class="step">
+                <span>Personal Information</span>
+            </div>
+            <div class="step">
+                <span>Insurance</span>
+            </div>
+            <div class="step active">
+                <span>Lifestyle</span>
+            </div>
+        </div>
+
+        <!-- Form Section -->
+        <section id="form-section">
+            <form>
+                <div class="form-group">
+                    <h3>Lifestyle Information</h3>
+
+                    <div class="form-row">
+                        <label for="smoking-frequency">How often do you smoke?</label>
+                        <select id="smoking-frequency" name="smoking-frequency" required>
+                            <option value="" disabled selected>Select frequency</option>
+                            <option value="never">Never</option>
+                            <option value="occasionally">Occasionally</option>
+                            <option value="daily">Daily</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="drinking-frequency">How often do you drink?</label>
+                        <select id="drinking-frequency" name="drinking-frequency" required>
+                            <option value="" disabled selected>Select frequency</option>
+                            <option value="never">Never</option>
+                            <option value="occasionally">Occasionally</option>
+                            <option value="daily">Daily</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="exercise-frequency">How often do you exercise?</label>
+                        <select id="exercise-frequency" name="exercise-frequency" required>
+                            <option value="" disabled selected>Select frequency</option>
+                            <option value="never">Never</option>
+                            <option value="occasionally">Occasionally</option>
+                            <option value="daily">Daily</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="diet-type">Which diet are you on?</label>
+                        <select id="diet-type" name="diet-type" required>
+                            <option value="" disabled selected>Select your diet</option>
+                            <option value="vegetarian">Vegetarian</option>
+                            <option value="vegan">Vegan</option>
+                            <option value="gluten-free">Gluten-Free</option>
+                            <option value="paleo">Paleo</option>
+                            <option value="keto">Keto</option>
+                            <option value="mediterranean">Mediterranean</option>
+                            <option value="dashed">DASH Diet</option>
+                            <option value="low-carb">Low-Carb</option>
+                            <option value="intermittent-fasting">Intermittent Fasting</option>
+                        </select>
+                    </div>
+                    
+
+                    <div class="form-row">
+                        <label for="sleep-duration">How long do you sleep on average (in hours)?</label>
+                        <input type="number" id="sleep-duration" name="sleep-duration" placeholder="Enter hours of sleep" required min="0" step="0.1">
+                    </div>
+                    
+
+                    <div class="form-row">
+                        <label for="drugs-used">List all drugs you use or have used in the past:</label>
+                        <textarea id="drugs-used" name="drugs-used" rows="4" placeholder="List drugs here..." required></textarea>
+                    </div>
+                </div>
+
+                <div class="form-buttons">
+                    <button type="button" onclick="window.location.href='insurance.html'">BACK</button>
+                    <button type="submit">FINISH</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

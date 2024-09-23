@@ -13,16 +13,6 @@
             <h1>Existing Patient</h1>
         </div>
 
-        <!-- Progress Bar -->
-        <div class="progress-bar">
-            <div class="step active">
-                <span>Personal Info</span>
-            </div>
-            <div class="step">
-                <span>Verify</span>
-            </div>
-        </div>
-
         <!-- Form Section -->
         <div id="form-section">
             <div class="form-group">
@@ -37,19 +27,54 @@
                 </div>
 
                 <div class="form-row">
-                    <label for="phoneNumber">Phone Number</label>
-                    <input type="tel" id="phoneNumber" placeholder="Enter your phone number">
+                    <label for="verification-method">Choose Verification Method:</label>
+                    <select id="verification-method" name="verification-method" required>
+                        <option value="" disabled selected>Select verification method</option>
+                        <option value="phone">Phone Number</option>
+                        <option value="email">Email Address</option>
+                    </select>
                 </div>
-            </div>
+                
+                <div class="form-row">
+                    <p style="margin-top: 10px; color: #666; font-size: 0.9em;">
+                        *We will send a verification code to the number or email entered below
+                    </p>
+                </div>
+                
+                
+                <div class="form-row">
+                    <label for="phoneNumber" id="contact-label">Phone Number</label>
+                    <input type="tel" id="contact-input" name="contact-input" placeholder="Enter your phone number">
+                    <button type="button" id="verify-button">Verify</button>
+                </div>
+                
 
             <!-- Navigation Buttons -->
             <div class="form-buttons">
                 <a href="login.html">
                 <button type="button">BACK</button>
                 </a>
-                
+                <button type="submit">SUBMIT</button>
             </div>
         </div>
     </div>
+
+    <script>
+            const verificationMethod = document.getElementById('verification-method');
+            const contactLabel = document.getElementById('contact-label');
+            const contactInput = document.getElementById('contact-input');
+
+            verificationMethod.addEventListener('change', function() {
+                if (this.value === 'phone') {
+                    contactLabel.textContent = 'Phone Number';
+                    contactInput.placeholder = 'Enter your phone number';
+                    contactInput.type = 'tel';
+                } else if (this.value === 'email') {
+                    contactLabel.textContent = 'Email Address';
+                    contactInput.placeholder = 'Enter your email address';
+                    contactInput.type = 'email';
+                }
+            });
+    </script>
 </body>
 </html>
