@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Patient - Insurance Information</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header id="header">
+            <h1><strong>New Patient</strong></h1>
+        </header>
+
+        <!-- Progress bar -->
+        <div class="progress-bar">
+            <div class="step">
+                <span>Personal Information</span>
+            </div>
+            <div class="step active">
+                <span>Insurance</span>
+            </div>
+            <div class="step">
+                <span>Lifestyle</span>
+            </div>
+        </div>
+
+        <!-- Form Section -->
+        <section id="form-section">
+            <form>
+                <div class="form-group">
+                    <h3>Insurance Information</h3>
+                    <div class="form-row">
+                        <label for="medicalaid">Medical Aid Provider:</label>
+                        <select id="medicalaid" name="medicalaid" required>
+                            <option value="">Select your provider</option>
+                            <option value="provider1">Provider 1</option>
+                            <option value="provider2">Provider 2</option>
+                            <option value="provider3">Provider 3</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="plantype">Plan Type:</label>
+                        <select id="plantype" name="plantype" required>
+                            <option value="">Select your plan type</option>
+
+                            <option value="basic">Basic</option>
+                            <option value="comprehensive">Comprehensive</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="membershipnumber">Membership Number:</label>
+                        <input type="text" id="membershipnumber" name="membershipnumber" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="idnumber">SA/Passport Number:</label>
+                        <input type="text" id="idnumber" name="idnumber" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <h3 id="mainholder">*If you are a dependent of the medical aid, meaning you are not the main holder of the medical aid please fill in the main holder's information.</h3>
+                    <div class="form-row">
+                        <label for="holdername">Holder's Full Name:</label>
+                        <input type="text" id="holdername" name="holdername">
+                    </div>
+                    <div class="form-row">
+                        <label for="holderid">Holder's ID Number:</label>
+                        <input type="text" id="holderid" name="holderid">
+                    </div>
+                    <div class="form-row">
+                        <label for="relationship">Relationship:</label>
+                        <input type="text" id="relationship" name="relationship">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <p>If you have no medical aid, please press "Next".</p>
+                </div>
+
+                <div class="form-buttons">
+                    <button type="button" onclick="window.location.href='registration.html'">Back</button>
+                    <a href="insurance.html">
+                    <button type="submit">Next</button>
+                </a>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
