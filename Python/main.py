@@ -20,10 +20,10 @@ def speak_text(engine, text):
     engine.say(text)
     engine.runAndWait()
 
-# Software Developer: Main HealthQueryProcessor class
+#Main HealthQueryProcessor class
 class HealthQueryProcessor:
     def __init__(self):
-        # Software Developer: File path setup
+        #File path setup
         self.json_directory = r'C:\Users\cweng\Documents\GitHub\MindSpark\MindSpark AI Project\Python\Datasets\JSON'
         self.severity_dict_path = os.path.join(self.json_directory, 'severity_dict.json')
         self.common_faqs_path = os.path.join(self.json_directory, 'common_FAQs.json')
@@ -33,6 +33,7 @@ class HealthQueryProcessor:
         self.issued_tickets = {}
         self.ticket_counter = 1
 
+        #Appointment Type
         self.appointment_dict = {
             'Routine Checkup': 'RC',
             'Dental Appointment': 'DA',
@@ -43,3 +44,32 @@ class HealthQueryProcessor:
             'Physical Therapy': 'PT'
         }
 
+
+
+    #Disease detection method
+    def detect_disease(self, text):
+        processed_text = text.lower()
+        for disease, keywords in self.disease_dict.items():
+            for keyword in keywords:
+                if keyword.lower() in processed_text:
+                    return disease
+        return None
+
+    #Disease query handling method
+    def handle_disease_query(self, disease, user_input):
+        disease_faqs = [faq for faq in self.all_faqs if faq.get('disease') == disease]
+        if disease_faqs:
+            best_match = None
+            highest_score = 0
+            for faq in disease_faqs:
+                score = fuzz.ratio(user_input.lower(), faq['question'].lower())
+                if score > highest_score:
+                    highest_score = score
+                    best_match = faq
+            if best_match and highest_score > 60:
+                return {
+                    'type': 'disease',
+                    'question': best_match['question'],
+                    'answer': best_match['answer']
+                }
+        return None
