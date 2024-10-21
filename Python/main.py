@@ -73,3 +73,34 @@ class HealthQueryProcessor:
                     'answer': best_match['answer']
                 }
         return None
+
+    #Symptom severity checking method
+    def check_symptom_severity(self, symptoms):
+        matched_symptoms, severity_level, diseases = process_multiple_symptoms(symptoms, self.excel_path)
+        return severity_level
+
+    #Symptom query handling method
+    def handle_symptom_query(self, initial_symptoms):
+        all_symptoms = initial_symptoms.copy()
+        
+        while True:
+            user_input = input("Enter additional symptoms (if any), or press Enter to continue: ").strip()
+            if not user_input:
+                break
+            additional_symptoms = detect_symptoms_from_input(user_input, ALL_SYMPTOMS)
+            all_symptoms.extend(additional_symptoms)
+
+        matched_symptoms, severity, top_diseases = process_multiple_symptoms(all_symptoms, self.excel_path)
+        
+        if matched_symptoms:
+            return {
+                'type': 'symptoms',
+                'matched_symptoms': matched_symptoms,
+                'severity': severity,
+                'top_diseases': top_diseases
+            }
+        else:
+            return {
+                'type': 'unknown',
+                'message': "No matching symptoms were found."
+            }
