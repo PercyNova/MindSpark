@@ -23,9 +23,49 @@ def speak(text):
 #File path setup
 json_directory = '../datasets/
 
+Disease dictionaries
+STI_DICTIONARY = {
+    "chlamydia": ["chlamydia"],
+    "gonorrhea": ["gonorrhea"],
+    "syphilis": ["syphilis"],
+    "chancroid": ["chancroid"],
+    "lymphogranuloma venereum": ["lymphogranuloma venereum", "lgv"],
+    "hiv": ["hiv", "human immunodeficiency virus"],
+    "hpv": ["hpv", "human papillomavirus"],
+    "herpes simplex virus": ["herpes simplex virus", "hsv"],
+    "molluscum contagiosum": ["molluscum contagiosum"],
+    "zika virus": ["zika virus"],
+    "trichomoniasis": ["trichomoniasis"],
+    "pubic lice": ["pubic lice", "crabs"],
+    "scabies": ["scabies"],
+    "candidiasis": ["candidiasis", "yeast infection"],
+    "bacterial vaginosis": ["bacterial vaginosis", "bv"],
+    "hepatitis a": ["hepatitis a"],
+    "hepatitis b": ["hepatitis b"],
+    "hepatitis c": ["hepatitis c"],
+    "hepatitis d": ["hepatitis d"],
+    "hepatitis e": ["hepatitis e"]
+}
 
+DISEASE_DICTIONARY = {
+    "hiv/aids": ["hiv", "aids", "human immunodeficiency virus", "acquired immunodeficiency syndrome"],
+    "cancer": ["cancer"],
+    "flu": ["flu", "influenza"],
+    "malaria": ["malaria"],
+    "alzheimer's disease": ["alzheimer's disease", "alzheimer's"],
+    "depression": ["depression"],
+    "bipolar disorder": ["bipolar disorder", "manic-depressive illness"],
+    "diabetes": ["diabetes", "diabetes mellitus"],
+    "heart disease": ["heart disease", "cardiovascular disease"],
+    "asthma": ["asthma"],
+    "schizophrenia": ["schizophrenia"],
+    "multiple sclerosis": ["multiple sclerosis", "ms"],
+    "parkinson's disease": ["parkinson's disease", "parkinson's"],
+    "obesity": ["obesity"],
+    "tuberculosis": ["tuberculosis", "tb"]
+}
 
-FAQ loading function
+#FAQ loading function
 def preload_all_faqs():
     all_faqs = []
     
