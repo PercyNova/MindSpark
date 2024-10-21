@@ -33,5 +33,13 @@ class HealthQueryProcessor:
         self.issued_tickets = {}
         self.ticket_counter = 1
 
-        #HEALCARE
+        self.appointment_dict = {
+            'Routine Checkup': 'RC',
+            'Dental Appointment': 'DA',
+            'Pediatric Appointment': 'PA',
+            'Surgical Consultation': 'SC',
+            'Emergency Visit': 'EV',
+            'Radiology Appointment': 'RA',
+            'Physical Therapy': 'PT'
+        }
 
