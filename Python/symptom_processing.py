@@ -45,6 +45,24 @@ MINOR_SYMPTOMS = symptom_severity_dict['MINOR_SYMPTOMS']
 AMBIGUOUS_SYMPTOMS = symptom_severity_dict['AMBIGUOUS_SYMPTOMS']
 ALL_SYMPTOMS = {**CRITICAL_SYMPTOMS, **MINOR_SYMPTOMS, **AMBIGUOUS_SYMPTOMS}
 
+#Loading Med-BERT model
+model_name = "Charangan/MedBERT"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModel.from_pretrained(model_name)
+
+#Caching mechanism for embeddings
+embedding_cache = {}
+
+#Sentence encoding function
+def encode_sentence(sentence):
+    if sentence not in embedding_cache:
+        inputs = tokenizer(sentence, return_tensors="pt", padding=True, truncation=True, max_length=512)
+        with torch.no_grad():
+            outputs = model(**inputs)
+        sentence_embedding = outputs.last_hidden_state.mean(dim=1).numpy()
+        embedding_cache[sentence] = sentence_embedding
+    return embedding_cache[sentence]
+
 #Text preprocessing function
 def preprocess_text(text):
     tokens = word_tokenize(text.lower())
@@ -65,7 +83,31 @@ def detect_symptoms_from_input(text, all_symptoms):
     
     return list(set(detected_symptoms))
 
-#AI specialist
+#Batch sentence encoding function
+def encode_sentences(sentences):
+    inputs = tokenizer(sentences, return_tensors="pt", padding=True, truncation=True, max_length=512)
+    with torch.no_grad():
+        outputs = model(**inputs)
+    return outputs.last_hidden_state.mean(dim=1).numpy()
+
+#Similarity calculation function
+def calculate_similarity(user_input):
+    input_embedding = encode_sentence(user_input)
+
+    variations = [(variation, symptom) for symptom, variations in ALL_SYMPTOMS.items() for variation in variations]
+    variations_texts = [variation[0] for variation in variations]
+    
+    variation_embeddings = encode_sentences(variations_texts)
+    
+    similarities = []
+    for idx, (variation, symptom) in enumerate(variations):
+        similarity = cosine_similarity(input_embedding, variation_embeddings[idx:idx + 1])[0][0]
+        similarities.append((symptom, variation, similarity))
+
+    similarities.sort(key=lambda x: x[2], reverse=True)
+    return similarities
+
+
 
 #Direct match function
 def find_direct_match(user_input):
