@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindy Health Portal</title>
+    <link rel="stylesheet" href="/Interface/CSS/dashboard.css">
+</head>
+<body>
+    <div class="header">
+        <h1>John Doe</h1>
+        <div>
+            <button class="button profile-button">PROFILE</button>
+            <button class="button logout-button">LOGOUT</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <ul class="menu-list">
+                <li><button class="menu-button"><span>1.</span> Appointment Schedule</button></li>
+                <li><button class="menu-button"><span>2.</span> Medication Information</button></li>
+                <li><button class="menu-button"><span>3.</span> Disease Information</button></li>
+                <li><button class="menu-button"><span>4.</span> Insurance Information</button></li>
+                <li><button class="menu-button"><span>5.</span> View Health Records</button></li>
+                <li><button class="menu-button"><span>6.</span> Disease Prevention and Education</button></li>
+                <li><button class="menu-button"><span>7.</span> Health Tips and Advice</button></li>
+                <li><button class="menu-button"><span>8.</span> Language and Accessibility</button></li>
+                <li><button class="menu-button"><span>9.</span> Legal Documents</button></li>
+                <li><button class="menu-button"><span>10.</span> Feedback and Improvements</button></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="content-area">
+                <h4>We would like to clarify that this website is primarily a decorative demonstration designed to showcase the overall appearance and layout of our project. The interactive elements, such as buttons, are not functional in this version, as our main focus lies on the AI component of the project.</h4>
+            </div>
+        </div>
+        <div class="ai-assistant">
+            <h2>Mindy AI</h2>
+            <p>This is your AI assistance, Mindy. To activate Mindy just click on the icon you see below. Mindy will help you find whatever you need.</p>
+            <div class="ai-icon" onclick="showChat()"></div>
+            <p><em>"Ask me anything—I'm here to help you with your health questions and guide you through our services!"</em></p>
+        </div>
+    </div>
+    
+    <div class="chat-interface">
+        <button class="close-chat" onclick="hideChat()">X</button>
+        <div class="chat-container">
+            <div class="ai-section">
+                <div class="ai-icon"></div>
+                <h2>Mindy AI</h2>
+                <p>"Ask me anything—I'm here to help you with your health questions!"</p>
+            </div>
+            <div class="chat-section">
+                <div class="chat-display">
+                    <!-- Chat messages will be displayed here -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Type your message here...">
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Interface/JS/dashboard.js"></script>
+</body>
+</html>
