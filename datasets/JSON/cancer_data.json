@@ -1,0 +1,146 @@
+{
+  "FAQs": [
+    {
+        "question": "What causes cancer?",
+        "answer": "Cancer is caused by genetic mutations, which may be inherited or acquired through environmental exposures or lifestyle factors."
+    },
+    {
+        "question": "Is cancer contagious?",
+        "answer": "No, cancer is not contagious and cannot be spread from person to person."
+    },
+    {
+        "question": "Can cancer be cured?",
+        "answer": "Some cancers can be cured, especially if caught early, while others can be managed effectively for many years."
+    },
+    {
+        "question": "What are the symptoms of cancer?",
+        "answer": "Symptoms vary but may include unexplained weight loss, fatigue, and pain, among others specific to the type of cancer."
+    },
+    {
+        "question": "How is cancer diagnosed?",
+        "answer": "Through a combination of imaging tests, biopsies, and blood tests."
+    },
+    {
+        "question": "What is chemotherapy?",
+        "answer": "Chemotherapy uses drugs to kill cancer cells and is often used in conjunction with other treatments."
+    },
+    {
+        "question": "Can lifestyle choices affect cancer risk?",
+        "answer": "Yes, lifestyle choices such as diet, exercise, and avoiding smoking can significantly affect cancer risk."
+    },
+    {
+        "question": "What is the survival rate for cancer?",
+        "answer": "Survival rates vary by cancer type and stage at diagnosis. Some cancers, when caught early, have high survival rates."
+    },
+    {
+        "question": "Can children get cancer?",
+        "answer": "Yes, although cancer is more common in adults, children can develop certain types of cancer."
+    },
+    {
+        "question": "Is there a vaccine for cancer?",
+        "answer": "There are vaccines for cancers caused by viruses, such as the HPV vaccine for cervical cancer."
+    },
+    {
+        "question": "How can I reduce my cancer risk?",
+        "answer": "Avoid smoking, maintain a healthy diet, exercise regularly, and get regular cancer screenings."
+    },
+    {
+        "question": "Can cancer come back after treatment?",
+        "answer": "Yes, cancer can recur after treatment, especially if not completely eradicated."
+    },
+    {
+        "question": "What is metastasis?",
+        "answer": "Metastasis refers to the spread of cancer from its original site to other parts of the body."
+    },
+    {
+        "question": "What is immunotherapy?",
+        "answer": "Immunotherapy is a treatment that helps the immune system fight cancer."
+    },
+    {
+        "question": "Are all tumors cancerous?",
+        "answer": "No, some tumors are benign (non-cancerous), while others are malignant (cancerous)."
+    },
+    {
+        "question": "What should I do if I have a family history of cancer?",
+        "answer": "Consider genetic counseling and regular screenings to monitor for early signs of cancer."
+    },
+    {
+        "question": "Can cancer be prevented?",
+        "answer": "Some cancers can be prevented through lifestyle changes, vaccinations, and regular screenings."
+    },
+    {
+        "question": "What is radiation therapy?",
+        "answer": "Radiation therapy uses high-energy rays to target and kill cancer cells."
+    },
+    {
+      "question": "How do I support a loved one with cancer?",
+      "answer": "Provide emotional support, help with day-to-day activities, and encourage them to follow their treatment plan."
+    },
+    {
+      "question": "Can I continue working during cancer treatment?",
+      "answer": "Many people can continue working, but it depends on the treatment and the individual's condition."
+    },
+    {
+      "question": "How does cancer spread?",
+      "answer": "Cancer spreads through the bloodstream or lymphatic system to distant parts of the body."
+    },
+    {
+      "question": "What is a biopsy?",
+      "answer": "A biopsy involves removing a small sample of tissue to check for cancer cells."
+    },
+    {
+      "question": "Is cancer always painful?",
+      "answer": "Not all cancers are painful, especially in the early stages, but pain may develop as the cancer progresses."
+    },
+    {
+      "question": "Can diet help treat cancer?",
+      "answer": "While diet alone cannot treat cancer, a healthy diet can support overall health during treatment."
+    },
+    {
+      "question": "What are clinical trials?",
+      "answer": "Clinical trials are research studies that test new cancer treatments or approaches."
+    },
+    {
+      "question": "What should I expect after cancer treatment?",
+      "answer": "After treatment, regular follow-ups are important to monitor for any recurrence or side effects."
+    },
+    {
+      "question": "Can I prevent cancer if I quit smoking?",
+      "answer": "Quitting smoking greatly reduces the risk of developing lung and other cancers."
+    },
+    {
+      "question": "How is cancer staged?",
+      "answer": "Cancer staging refers to how much cancer is in the body and where it is located. It helps determine treatment options."
+    },
+    {
+      "question": "What are the side effects of chemotherapy?",
+      "answer": "Side effects can include nausea, hair loss, fatigue, and an increased risk of infections."
+    },
+    {
+      "question": "Can cancer be detected early?",
+      "answer": "Yes, through screenings and awareness of early symptoms, many cancers can be detected early."
+    },
+    {
+      "question": "How does alcohol affect cancer risk?",
+      "answer": "Excessive alcohol consumption increases the risk of cancers such as liver, breast, and esophageal cancer."
+    },
+    {
+      "question": "Are there alternative treatments for cancer?",
+      "answer": "Some individuals explore alternative treatments, but it's important to discuss these options with a healthcare provider."
+    },
+    {
+      "question": "What is a tumor marker?",
+      "answer": "Tumor markers are substances found in the blood or tissues that may indicate the presence of cancer."
+    },
+    {
+      "question": "How does obesity affect cancer risk?",
+      "answer": "Obesity is linked to an increased risk of several types of cancer, including breast and colorectal cancer."
+    },
+    {
+      "question": "What is the difference between a benign and malignant tumor?",
+      "answer": "Benign tumors are non-cancerous and don't spread, while malignant tumors are cancerous and can invade other tissues."
+    }
+  ]
+}
+
+

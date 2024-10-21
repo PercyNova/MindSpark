@@ -1,0 +1,145 @@
+{
+  "FAQs": [
+    {
+      "question": "What is the flu?",
+      "answer": "The flu is a contagious respiratory illness caused by influenza viruses."
+    },
+    {
+      "question": "How is the flu different from a cold?",
+      "answer": "The flu typically has more severe symptoms than a cold, such as high fever, body aches, and fatigue."
+    },
+    {
+      "question": "How does the flu spread?",
+      "answer": "The flu spreads through respiratory droplets when an infected person coughs, sneezes, or talks."
+    },
+    {
+      "question": "Can I get the flu from the flu vaccine?",
+      "answer": "No, the flu vaccine does not cause the flu."
+    },
+    {
+      "question": "How long does the flu last?",
+      "answer": "The flu usually lasts 5 to 7 days, though symptoms like fatigue may persist for weeks."
+    },
+    {
+      "question": "When should I see a doctor for the flu?",
+      "answer": "Seek medical attention if you experience difficulty breathing, chest pain, confusion, or persistent fever."
+    },
+    {
+      "question": "Who is most at risk for complications from the flu?",
+      "answer": "The elderly, young children, pregnant women, and individuals with chronic health conditions are at higher risk."
+    },
+    {
+      "question": "Can I prevent the flu?",
+      "answer": "Yes, by getting vaccinated annually and practicing good hygiene."
+    },
+    {
+      "question": "Is the flu dangerous?",
+      "answer": "Yes, the flu can lead to severe complications, including pneumonia, especially in high-risk individuals."
+    },
+    {
+      "question": "How effective is the flu vaccine?",
+      "answer": "The effectiveness varies year to year but generally reduces the risk of flu by 40-60%."
+    },
+    {
+      "question": "What should I do if I have the flu?",
+      "answer": "Rest, stay hydrated, and take antiviral medications if prescribed."
+    },
+    {
+      "question": "Can I work or go to school with the flu?",
+      "answer": "No, you should stay home to prevent spreading the virus."
+    },
+    {
+      "question": "How soon after being exposed to the flu do symptoms appear?",
+      "answer": "Flu symptoms usually appear 1-4 days after exposure."
+    },
+    {
+      "question": "How long is someone contagious with the flu?",
+      "answer": "Individuals are contagious from 1 day before symptoms appear to 5-7 days after becoming sick."
+    },
+    {
+      "question": "What are the side effects of the flu vaccine?",
+      "answer": "Common side effects include soreness at the injection site and mild fever."
+    },
+    {
+      "question": "Can children get the flu vaccine?",
+      "answer": "Yes, children over 6 months old should receive the flu vaccine."
+    },
+    {
+      "question": "What are antiviral medications for the flu?",
+      "answer": "Antivirals like Tamiflu can shorten the duration of illness if taken early."
+    },
+    {
+      "question": "Why do I need a flu shot every year?",
+      "answer": "The flu virus changes frequently, so a new vaccine is formulated each year."
+    },
+    {
+      "question": "What is the best way to prevent the flu?",
+      "answer": "Getting the flu vaccine annually is the best way to prevent the flu."
+    },
+    {
+      "question": "Can pregnant women get the flu vaccine?",
+      "answer": "Yes, the flu vaccine is recommended for pregnant women."
+    },
+    {
+      "question": "Can I get the flu if I've been vaccinated?",
+      "answer": "Yes, but vaccination reduces the severity of illness if you do get sick."
+    },
+    {
+      "question": "What is the incubation period for the flu?",
+      "answer": "The incubation period is typically 1-4 days after exposure."
+    },
+    {
+      "question": "Is the flu contagious before symptoms appear?",
+      "answer": "Yes, individuals can spread the flu 1 day before symptoms start."
+    },
+    {
+      "question": "How is the flu treated?",
+      "answer": "Treatment includes rest, fluids, over-the-counter medications, and antivirals if needed."
+    },
+    {
+      "question": "Can the flu cause long-term health problems?",
+      "answer": "In severe cases, the flu can lead to complications such as pneumonia or heart issues."
+    },
+    {
+      "question": "What should I do if I think I have the flu?",
+      "answer": "Stay home, rest, and consult a healthcare provider if symptoms worsen."
+    },
+    {
+      "question": "Does handwashing prevent the flu?",
+      "answer": "Yes, washing hands frequently can help prevent the spread of the flu."
+    },
+    {
+      "question": "Can I get the flu more than once in a season?",
+      "answer": "It's rare, but possible, if exposed to a different strain of the virus."
+    },
+    {
+      "question": "How do I know if I need antivirals?",
+      "answer": "Antivirals are typically recommended for high-risk individuals or severe cases."
+    },
+    {
+      "question": "What are flu-related complications?",
+      "answer": "Complications include pneumonia, bronchitis, sinus infections, and worsening of chronic conditions."
+    },
+    {
+      "question": "Can I get the flu from touching surfaces?",
+      "answer": "Yes, the virus can live on surfaces, and you can contract the flu by touching a contaminated surface and then touching your face."
+    },
+    {
+      "question": "How do I protect my family from the flu?",
+      "answer": "Ensure everyone is vaccinated, practice good hygiene, and isolate sick individuals."
+    },
+    {
+      "question": "Can animals give me the flu?",
+      "answer": "Some animals, like birds and pigs, can carry flu strains that affect humans, but it's rare."
+    },
+    {
+      "question": "What should I do if my child has the flu?",
+      "answer": "Keep them home from school, provide plenty of fluids, and consult a healthcare provider if symptoms worsen."
+    },
+    {
+      "question": "What is a flu pandemic?",
+      "answer": "A flu pandemic occurs when a new influenza virus strain emerges and spreads globally, causing widespread illness."
+    }
+  ]
+}
+

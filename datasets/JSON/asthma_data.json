@@ -1,0 +1,124 @@
+{
+  "FAQs": [
+    {
+      "question": "What is asthma?",
+      "answer": "A chronic respiratory condition characterized by inflammation and narrowing of the airways."
+    },
+    {
+      "question": "What causes asthma?",
+      "answer": "Causes include genetic factors, environmental allergens, and respiratory infections."
+    },
+    {
+      "question": "What are the symptoms of asthma?",
+      "answer": "Symptoms include wheezing, coughing, shortness of breath, and chest tightness."
+    },
+    {
+      "question": "How is asthma diagnosed?",
+      "answer": "Diagnosis involves medical history, physical examination, and pulmonary function tests."
+    },
+    {
+      "question": "What medications are used to treat asthma?",
+      "answer": "Common medications include inhaled corticosteroids and bronchodilators."
+    },
+    {
+      "question": "How can I manage asthma?",
+      "answer": "Effective management includes avoiding triggers, monitoring symptoms, and following an asthma action plan."
+    },
+    {
+      "question": "Can asthma be cured?",
+      "answer": "There is currently no cure for asthma, but it can be effectively managed."
+    },
+    {
+      "question": "What are asthma triggers?",
+      "answer": "Triggers include allergens, smoke, pollution, exercise, and respiratory infections."
+    },
+    {
+      "question": "What is an asthma action plan?",
+      "answer": "A personalized plan that outlines how to manage asthma, including medication use and emergency measures."
+    },
+    {
+      "question": "Can exercise worsen asthma?",
+      "answer": "Exercise can trigger symptoms in some individuals, but regular physical activity is generally beneficial with proper management."
+    },
+    {
+      "question": "What should I do during an asthma attack?",
+      "answer": "Use your rescue inhaler and follow your asthma action plan; seek medical help if symptoms do not improve."
+    },
+    {
+      "question": "Is asthma more common in children?",
+      "answer": "Asthma can develop at any age, but it often starts in childhood."
+    },
+    {
+      "question": "How does smoking affect asthma?",
+      "answer": "Smoking can worsen asthma symptoms and increase the frequency of attacks."
+    },
+    {
+      "question": "Can allergies contribute to asthma?",
+      "answer": "Yes, allergic reactions can trigger asthma symptoms in many individuals."
+    },
+    {
+      "question": "What role does diet play in asthma management?",
+      "answer": "A healthy diet rich in fruits, vegetables, and omega-3 fatty acids may help reduce inflammation."
+    },
+    {
+      "question": "Are there any alternative therapies for asthma?",
+      "answer": "Some individuals find relief through complementary therapies, but they should not replace conventional treatment."
+    },
+    {
+      "question": "How does weather affect asthma?",
+      "answer": "Extreme weather conditions, such as cold air or humidity, can trigger asthma symptoms in some people."
+    },
+    {
+      "question": "Can asthma lead to other health problems?",
+      "answer": "Yes, poorly controlled asthma can lead to complications such as respiratory infections and sleep disturbances."
+    },
+    {
+      "question": "What is the difference between a rescue inhaler and a controller medication?",
+      "answer": "A rescue inhaler provides immediate relief during an asthma attack, while controller medications manage long-term symptoms."
+    },
+    {
+      "question": "How often should I see my doctor for asthma management?",
+      "answer": "Regular check-ups are essential; frequency may vary based on severity and control of asthma."
+    },
+    {
+      "question": "Can I travel with asthma?",
+      "answer": "Yes, but it's important to plan ahead, bring medications, and be aware of triggers."
+    },
+    {
+      "question": "How does air quality impact asthma?",
+      "answer": "Poor air quality can exacerbate asthma symptoms; monitoring local air quality can help manage exposure."
+    },
+    {
+      "question": "What is the role of inhaler technique in asthma management?",
+      "answer": "Proper inhaler technique is crucial for ensuring medication reaches the lungs effectively."
+    },
+    {
+      "question": "What should I do if my asthma symptoms worsen?",
+      "answer": "Follow your asthma action plan and consult your healthcare provider if symptoms persist."
+    },
+    {
+      "question": "Can I have pets if I have asthma?",
+      "answer": "Some pets may trigger asthma symptoms; hypoallergenic breeds may be better options for sensitive individuals."
+    },
+    {
+      "question": "What is exercise-induced asthma?",
+      "answer": "A type of asthma triggered by physical activity, often managed with pre-exercise medications."
+    },
+    {
+      "question": "How do I know if my asthma is well controlled?",
+      "answer": "Indicators of good control include infrequent symptoms, minimal use of rescue medication, and normal activity levels."
+    },
+    {
+      "question": "What impact does stress have on asthma?",
+      "answer": "Stress can worsen asthma symptoms and trigger attacks in some individuals."
+    },
+    {
+      "question": "Is it safe to use a nebulizer for asthma?",
+      "answer": "Yes, nebulizers can be used to deliver medications, especially during severe attacks."
+    },
+    {
+      "question": "What resources are available for asthma education?",
+      "answer": "Organizations like AAFA and GINA provide valuable information and support for asthma patients."
+    }
+  ]
+}

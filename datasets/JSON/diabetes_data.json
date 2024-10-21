@@ -1,0 +1,124 @@
+{
+  "FAQs": [
+    {
+      "question": "What is diabetes?",
+      "answer": "A chronic condition characterized by high blood sugar levels due to insulin deficiency or resistance."
+    },
+    {
+      "question": "What are the different types of diabetes?",
+      "answer": "The main types are Type 1 and Type 2 diabetes."
+    },
+    {
+      "question": "What causes diabetes?",
+      "answer": "Causes vary by type; Type 1 is autoimmune, while Type 2 is linked to insulin resistance and lifestyle factors."
+    },
+    {
+      "question": "What are the symptoms of diabetes?",
+      "answer": "Symptoms include increased thirst, frequent urination, extreme hunger, and fatigue."
+    },
+    {
+      "question": "How is diabetes diagnosed?",
+      "answer": "Through blood tests such as FPG, OGTT, and A1c."
+    },
+    {
+      "question": "Can diabetes be cured?",
+      "answer": "There is currently no cure, but it can be effectively managed."
+    },
+    {
+      "question": "How is Type 1 diabetes treated?",
+      "answer": "Primarily through insulin therapy and glucose monitoring."
+    },
+    {
+      "question": "How can Type 2 diabetes be managed?",
+      "answer": "With lifestyle changes, oral medications, and sometimes insulin."
+    },
+    {
+      "question": "What complications can arise from diabetes?",
+      "answer": "Complications include cardiovascular disease, neuropathy, nephropathy, and retinopathy."
+    },
+    {
+      "question": "What role does diet play in managing diabetes?",
+      "answer": "A balanced diet helps control blood sugar levels and prevent complications."
+    },
+    {
+      "question": "What is insulin resistance?",
+      "answer": "A condition where the body's cells do not respond effectively to insulin, often seen in Type 2 diabetes."
+    },
+    {
+      "question": "What are the long-term effects of diabetes?",
+      "answer": "Long-term effects can include damage to the heart, kidneys, eyes, and nerves."
+    },
+    {
+      "question": "Can diabetes affect mental health?",
+      "answer": "Yes, individuals with diabetes may experience higher rates of depression and anxiety."
+    },
+    {
+      "question": "What is prediabetes?",
+      "answer": "A condition where blood sugar levels are higher than normal but not high enough for a diabetes diagnosis."
+    },
+    {
+      "question": "How can I reduce my risk of developing Type 2 diabetes?",
+      "answer": "By maintaining a healthy weight, engaging in regular physical activity, and eating a balanced diet."
+    },
+    {
+      "question": "Is it safe for people with diabetes to exercise?",
+      "answer": "Yes, regular physical activity is encouraged, but individuals should monitor blood sugar levels before, during, and after exercise."
+    },
+    {
+      "question": "What should I do if my blood sugar is too high?",
+      "answer": "Follow your healthcare provider's recommendations, which may include medication adjustments, hydration, and rest."
+    },
+    {
+      "question": "How does stress affect diabetes?",
+      "answer": "Stress can raise blood sugar levels and complicate diabetes management."
+    },
+    {
+      "question": "Can children get diabetes?",
+      "answer": "Yes, Type 1 diabetes can develop in children, and Type 2 is increasingly diagnosed in adolescents due to rising obesity rates."
+    },
+    {
+      "question": "What are the signs of low blood sugar?",
+      "answer": "Symptoms include shakiness, sweating, confusion, irritability, and dizziness."
+    },
+    {
+      "question": "How often should I monitor my blood sugar?",
+      "answer": "Monitoring frequency varies by individual needs; consult your healthcare provider for recommendations."
+    },
+    {
+      "question": "What is the A1c test?",
+      "answer": "A blood test that measures average blood sugar levels over the past 2-3 months."
+    },
+    {
+      "question": "Can diabetes affect sexual health?",
+      "answer": "Yes, diabetes can lead to sexual dysfunction in both men and women."
+    },
+    {
+      "question": "What is the impact of diabetes on pregnancy?",
+      "answer": "Pregnant women with diabetes need careful management to ensure the health of both mother and baby."
+    },
+    {
+      "question": "Is there a link between diabetes and heart disease?",
+      "answer": "Yes, individuals with diabetes are at higher risk for heart disease and stroke."
+    },
+    {
+      "question": "What are the best foods for managing diabetes?",
+      "answer": "Foods high in fiber, lean proteins, healthy fats, and low in refined sugars are beneficial."
+    },
+    {
+      "question": "Can diabetes lead to amputations?",
+      "answer": "Yes, severe complications such as infections or foot ulcers can lead to amputations."
+    },
+    {
+      "question": "How can I support a friend or family member with diabetes?",
+      "answer": "Offer emotional support, help with meal planning, and encourage healthy lifestyle choices."
+    },
+    {
+      "question": "What resources are available for diabetes education?",
+      "answer": "Organizations like the ADA provide resources, classes, and support for managing diabetes."
+    },
+    {
+      "question": "Is there a cure for diabetes?",
+      "answer": "Currently, there is no cure, but ongoing research aims to find better treatments and potential cures."
+    }
+  ]
+}
