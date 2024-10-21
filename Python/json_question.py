@@ -21,8 +21,38 @@ def speak(text):
     engine.runAndWait()
 
 #File path setup
-json_directory = r'C:\Users\cweng\Documents\GitHub\MindSpark\MindSpark AI Project\Python\Datasets\JSON'
+json_directory = '../datasets/
 
+
+
+FAQ loading function
+def preload_all_faqs():
+    all_faqs = []
+    
+    # Load common FAQs
+    common_faqs_path = os.path.join(json_directory, 'common_FAQs.json')
+    if os.path.exists(common_faqs_path):
+        with open(common_faqs_path, 'r') as file:
+            common_faqs = json.load(file).get("FAQs", [])
+            for faq in common_faqs:
+                faq['question'] = faq['question'].lower()
+                faq['answer'] = faq['answer'].lower()
+            all_faqs.extend(common_faqs)
+    
+    # Load disease-specific FAQs
+    for disease, keywords in {**STI_DICTIONARY, **DISEASE_DICTIONARY}.items():
+        file_name = f"{disease.replace(' ', '_').replace('/', '_').lower()}_data.json"
+        file_path = os.path.join(json_directory, file_name)
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as json_file:
+                disease_faqs = json.load(json_file).get("FAQs", [])
+                for faq in disease_faqs:
+                    if 'question' in faq and 'answer' in faq:
+                        faq['question'] = faq['question'].lower()
+                        faq['answer'] = faq['answer'].lower()
+                all_faqs.extend(disease_faqs)
+    
+    return all_faqs
 
 #Best match finding function
 def find_best_match(user_question, faqs):
