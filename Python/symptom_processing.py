@@ -45,3 +45,71 @@ MINOR_SYMPTOMS = symptom_severity_dict['MINOR_SYMPTOMS']
 AMBIGUOUS_SYMPTOMS = symptom_severity_dict['AMBIGUOUS_SYMPTOMS']
 ALL_SYMPTOMS = {**CRITICAL_SYMPTOMS, **MINOR_SYMPTOMS, **AMBIGUOUS_SYMPTOMS}
 
+
+
+#Severity mapping and determination functions
+def map_severity_string_to_score(severity_str):
+    severity_mapping = {
+        'Mild': 0.3,
+        'Moderate': 0.6,
+        'Severe': 0.9
+    }
+    return severity_mapping.get(severity_str, 0.0)
+
+def determine_severity_level(severity_score):
+    if severity_score <= 0.4:
+        return "Mild"
+    elif 0.4 < severity_score <= 0.7:
+        return "Moderate"
+    else:
+        return "Severe"
+
+def calculate_severity_based_on_category(symptoms):
+    severity_score = 0
+    for symptom in symptoms:
+        if symptom in CRITICAL_SYMPTOMS:
+            severity_score = max(severity_score, 0.9)
+        elif symptom in AMBIGUOUS_SYMPTOMS:
+            severity_score = max(severity_score, 0.7)
+        elif symptom in MINOR_SYMPTOMS:
+            severity_score = max(severity_score, 0.3)
+    return severity_score
+
+# Software Developer: Main processing function
+def process_multiple_symptoms(initial_symptoms, file_path):
+    speak(f"Processing the following symptoms: {initial_symptoms}")
+    print(f"Processing the following symptoms: {initial_symptoms}")
+
+    matched_symptoms = []
+    for symptom in initial_symptoms:
+        direct_match = find_direct_match(symptom.strip().lower())
+        if direct_match:
+            matched_symptoms.append(direct_match)
+            speak(f"Direct match found: {direct_match} for '{symptom}'")
+        else:
+            similarities = calculate_similarity(symptom.strip().lower())
+            best_match = similarities[0][0] if similarities else None
+            if best_match:
+                matched_symptoms.append(best_match)
+                speak(f"No direct match for '{symptom}'. Best match found using BERT: {best_match}")
+            else:
+                speak(f"No match found for '{symptom}'.")
+
+    top_diseases = find_top_diseases_fuzzy(matched_symptoms, file_path)
+    
+    if top_diseases:
+        top_disease_severity = top_diseases[0][4]
+        severity_score = map_severity_string_to_score(top_disease_severity)
+        severity_level = determine_severity_level(severity_score)
+        speak(f"Severity of the top disease: {severity_level}")
+        print(f"Severity of the disease is: {severity_level}")
+
+        return matched_symptoms, severity_level, top_diseases
+    else:
+        speak("No matching diseases found. Estimating severity based on symptom category.")
+        estimated_severity_score = calculate_severity_based_on_category(matched_symptoms)
+        severity_level = determine_severity_level(severity_score=estimated_severity_score)
+        speak(f"Estimated severity based on symptom category is: {severity_level}")
+        print(f"Your severity is:{severity_level}")
+
+        return matched_symptoms, severity_level, []
