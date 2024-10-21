@@ -35,3 +35,13 @@ nltk.download('wordnet', quiet=True)
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
 
+#Loading and categorizing symptoms
+json_file_path = '../datasets/JSON/severity_dict.json'
+with open(json_file_path, 'r') as file:
+    symptom_severity_dict = json.load(file)
+
+CRITICAL_SYMPTOMS = symptom_severity_dict['CRITICAL_SYMPTOMS']
+MINOR_SYMPTOMS = symptom_severity_dict['MINOR_SYMPTOMS']
+AMBIGUOUS_SYMPTOMS = symptom_severity_dict['AMBIGUOUS_SYMPTOMS']
+ALL_SYMPTOMS = {**CRITICAL_SYMPTOMS, **MINOR_SYMPTOMS, **AMBIGUOUS_SYMPTOMS}
+
