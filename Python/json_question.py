@@ -24,6 +24,32 @@ def speak(text):
 json_directory = r'C:\Users\cweng\Documents\GitHub\MindSpark\MindSpark AI Project\Python\Datasets\JSON'
 
 
+#Best match finding function
+def find_best_match(user_question, faqs):
+    best_match = None
+    highest_score = 0
+    user_question = user_question.lower()
+    
+    for faq in faqs:
+        if 'question' not in faq or 'answer' not in faq:
+            speak(f"Warning: Missing 'question' or 'answer' in FAQ entry: {faq}")
+            print(f"Warning: Missing 'question' or 'answer' in FAQ entry: {faq}")
+            continue
+        
+        question = faq['question']
+        score = fuzz.token_set_ratio(user_question, question)
+        if score > highest_score:
+            highest_score = score
+            best_match = faq
+
+    return best_match, highest_score
+
+#FAQ search function
+def search_faq(user_input, faqs):
+    matched_faq, score = find_best_match(user_input, faqs)
+    if matched_faq and score > 75:
+        return matched_faq
+    return None
 
 #Main question asking loop
 def ask_question():
