@@ -1,0 +1,124 @@
+{
+  "FAQs": [
+    {
+      "question": "What is tuberculosis?",
+      "answer": "An infectious disease caused by the bacterium Mycobacterium tuberculosis, primarily affecting the lungs."
+    },
+    {
+      "question": "How is TB transmitted?",
+      "answer": "TB spreads through the air when an infected person coughs, sneezes, or talks."
+    },
+    {
+      "question": "What are the symptoms of active TB?",
+      "answer": "Symptoms include a persistent cough, chest pain, weight loss, fatigue, fever, and chills."
+    },
+    {
+      "question": "How is TB diagnosed?",
+      "answer": "Diagnosis involves skin tests, blood tests, chest X-rays, and sputum analysis."
+    },
+    {
+      "question": "What is the treatment for TB?",
+      "answer": "Treatment typically includes a regimen of antibiotics taken for at least six months."
+    },
+    {
+      "question": "What is latent TB?",
+      "answer": "Latent TB is a non-infectious state where the bacteria remain dormant in the body."
+    },
+    {
+      "question": "Is TB contagious?",
+      "answer": "Yes, TB is contagious, but not all forms are infectious. Latent TB cannot be spread to others."
+    },
+    {
+      "question": "How can TB be prevented?",
+      "answer": "Prevention strategies include vaccination, screening, and infection control measures."
+    },
+    {
+      "question": "What is drug-resistant TB?",
+      "answer": "A form of TB that does not respond to standard antibiotic treatment, often due to improper use of medication."
+    },
+    {
+      "question": "Can TB affect people in developed countries?",
+      "answer": "Yes, TB can occur in all countries, including those with high-income economies."
+    },
+    {
+      "question": "How long does TB treatment take?",
+      "answer": "TB treatment typically lasts at least six months to ensure full recovery."
+    },
+    {
+      "question": "Can I travel if I have TB?",
+      "answer": "It depends on whether your TB is active or latent; consult your healthcare provider before traveling."
+    },
+    {
+      "question": "Is there a vaccine for TB?",
+      "answer": "Yes, the BCG vaccine provides some protection against severe forms of TB in children."
+    },
+    {
+      "question": "What should I do if I think I have been exposed to TB?",
+      "answer": "Seek medical attention immediately for evaluation and possible testing."
+    },
+    {
+      "question": "Can I work if I have TB?",
+      "answer": "Those with active TB should avoid work until they are no longer contagious; latent TB does not require work restrictions."
+    },
+    {
+      "question": "How common is TB worldwide?",
+      "answer": "TB remains a significant global health issue, with millions of new cases reported annually."
+    },
+    {
+      "question": "What are the risks of untreated TB?",
+      "answer": "Untreated TB can lead to severe lung damage, dissemination of the bacteria, and increased mortality."
+    },
+    {
+      "question": "Can I get TB from drinking milk?",
+      "answer": "In rare cases, unpasteurized milk from infected cows can transmit a form of TB called bovine tuberculosis."
+    },
+    {
+      "question": "How is TB stigma addressed?",
+      "answer": "Education and awareness campaigns help reduce stigma and misconceptions surrounding TB."
+    },
+    {
+      "question": "What lifestyle changes can help manage TB?",
+      "answer": "Maintaining a healthy diet, avoiding tobacco and alcohol, and managing stress can support recovery."
+    },
+    {
+      "question": "Can TB affect children?",
+      "answer": "Yes, children can contract TB, and the BCG vaccine is often given to protect them."
+    },
+    {
+      "question": "What is the role of public health in TB control?",
+      "answer": "Public health initiatives focus on prevention, early detection, and treatment of TB to reduce transmission."
+    },
+    {
+      "question": "What can I do to support someone with TB?",
+      "answer": "Provide emotional support, help them access treatment, and educate yourself about the disease."
+    },
+    {
+      "question": "Are there any side effects of TB medications?",
+      "answer": "Some patients may experience side effects such as nausea, fatigue, or liver issues; consult a doctor if concerns arise."
+    },
+    {
+      "question": "What are the long-term effects of TB?",
+      "answer": "Long-term effects can include lung damage and the risk of reactivation of the disease."
+    },
+    {
+      "question": "Can I have a normal life after TB?",
+      "answer": "Yes, many people recover fully from TB and lead healthy lives with proper treatment."
+    },
+    {
+      "question": "What factors increase the risk of TB?",
+      "answer": "Weakened immune systems, crowded living conditions, and poor healthcare access are significant risk factors."
+    },
+    {
+      "question": "Is there a difference between TB and lung cancer?",
+      "answer": "Yes, TB is an infectious disease, while lung cancer is a malignancy that can have different causes."
+    },
+    {
+      "question": "How often should high-risk individuals get tested for TB?",
+      "answer": "High-risk individuals should get tested annually or as recommended by their healthcare provider."
+    },
+    {
+      "question": "What resources are available for TB patients?",
+      "answer": "Many organizations, including WHO and local health departments, provide resources and support for TB patients."
+    }
+  ]
+}

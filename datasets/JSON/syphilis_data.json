@@ -1,0 +1,45 @@
+{
+    "FAQs": [
+      {
+        "question": "What is Syphilis?",
+        "answer": "Syphilis is a sexually transmitted infection (STI) caused by the bacterium Treponema pallidum."
+      },
+      {
+        "question": "How is Syphilis transmitted?",
+        "answer": "Syphilis is spread through direct contact with syphilis sores during vaginal, anal, or oral sex."
+      },
+      {
+        "question": "What are the stages of Syphilis?",
+        "answer": "Syphilis progresses through four stages: primary, secondary, latent, and tertiary."
+      },
+      {
+        "question": "Can Syphilis be cured?",
+        "answer": "Yes, Syphilis can be cured with antibiotics, particularly penicillin."
+      },
+      {
+        "question": "What happens if Syphilis is left untreated?",
+        "answer": "Untreated Syphilis can lead to severe health problems including neurological and cardiovascular damage."
+      },
+      {
+        "question": "Can Syphilis be asymptomatic?",
+        "answer": "Yes, Syphilis can remain asymptomatic, especially during the latent stage."
+      },
+      {
+        "question": "How can I prevent Syphilis?",
+        "answer": "Using condoms and getting regular STI testing can help prevent Syphilis."
+      },
+      {
+        "question": "Can Syphilis affect pregnancy?",
+        "answer": "Yes, Syphilis can cause miscarriage, stillbirth, or congenital syphilis in newborns."
+      },
+      {
+        "question": "Can I get Syphilis more than once?",
+        "answer": "Yes, reinfection is possible even after successful treatment."
+      },
+      {
+        "question": "How is Syphilis diagnosed?",
+        "answer": "Syphilis is diagnosed through blood tests or examining sores."
+      }
+    ]
+  }
+  

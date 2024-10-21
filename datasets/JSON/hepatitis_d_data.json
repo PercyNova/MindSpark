@@ -1,0 +1,45 @@
+{
+    "FAQs": [
+      {
+        "question": "What is Hepatitis D?",
+        "answer": "Hepatitis D is a viral infection that causes liver inflammation and can only occur in people who are already infected with Hepatitis B."
+      },
+      {
+        "question": "How is Hepatitis D transmitted?",
+        "answer": "Hepatitis D is transmitted through contact with infected blood or bodily fluids, usually through shared needles or unprotected sex, in people with Hepatitis B."
+      },
+      {
+        "question": "What are the symptoms of Hepatitis D?",
+        "answer": "Symptoms include fatigue, jaundice, abdominal pain, and nausea. The infection can exacerbate symptoms of Hepatitis B."
+      },
+      {
+        "question": "Can Hepatitis D be cured?",
+        "answer": "There is no definitive cure for Hepatitis D, but antiviral treatments for Hepatitis B can help manage the infection."
+      },
+      {
+        "question": "What happens if Hepatitis D is left untreated?",
+        "answer": "Untreated Hepatitis D can lead to more severe liver damage, including cirrhosis and liver failure, than Hepatitis B alone."
+      },
+      {
+        "question": "Can Hepatitis D be asymptomatic?",
+        "answer": "Yes, some people with Hepatitis D may not show symptoms, but the infection still progresses."
+      },
+      {
+        "question": "How can I prevent Hepatitis D?",
+        "answer": "The best way to prevent Hepatitis D is by getting vaccinated against Hepatitis B, as Hepatitis D cannot occur without a Hepatitis B infection."
+      },
+      {
+        "question": "Can Hepatitis D affect pregnancy?",
+        "answer": "Hepatitis D can worsen liver disease during pregnancy, but transmission to the baby is rare if Hepatitis B is properly managed."
+      },
+      {
+        "question": "How is Hepatitis D diagnosed?",
+        "answer": "Hepatitis D is diagnosed through blood tests that detect the virus in individuals already infected with Hepatitis B."
+      },
+      {
+        "question": "Is there a vaccine for Hepatitis D?",
+        "answer": "There is no vaccine for Hepatitis D, but vaccination against Hepatitis B can prevent Hepatitis D."
+      }
+    ]
+  }
+  

@@ -1,0 +1,45 @@
+{
+    "FAQs": [
+      {
+        "question": "What is HPV?",
+        "answer": "HPV (Human Papillomavirus) is a group of viruses that can cause warts on different parts of the body, including the genital area."
+      },
+      {
+        "question": "How is HPV transmitted?",
+        "answer": "HPV is spread through intimate skin-to-skin contact, including vaginal, anal, and oral sex."
+      },
+      {
+        "question": "What are the symptoms of HPV?",
+        "answer": "Most HPV infections are asymptomatic, but some types can cause genital warts or lead to cancer."
+      },
+      {
+        "question": "Can HPV be cured?",
+        "answer": "There is no cure for the virus itself, but many HPV infections go away on their own. Treatments are available for the conditions caused by HPV."
+      },
+      {
+        "question": "What happens if HPV is left untreated?",
+        "answer": "Certain strains of HPV can lead to cancers such as cervical, throat, and anal cancer if left untreated."
+      },
+      {
+        "question": "Can HPV be asymptomatic?",
+        "answer": "Yes, most HPV infections do not cause symptoms and go away on their own."
+      },
+      {
+        "question": "How can I prevent HPV?",
+        "answer": "The HPV vaccine can prevent many types of HPV. Using condoms and getting regular screenings also help reduce risk."
+      },
+      {
+        "question": "Can HPV affect pregnancy?",
+        "answer": "Most HPV infections do not affect pregnancy, but some can lead to complications like genital warts or cervical changes."
+      },
+      {
+        "question": "How is HPV diagnosed?",
+        "answer": "HPV is diagnosed through visual examination for warts or through Pap smears and HPV tests for women."
+      },
+      {
+        "question": "Is the HPV vaccine safe?",
+        "answer": "Yes, the HPV vaccine is safe and effective in preventing many types of HPV that cause cancer."
+      }
+    ]
+  }
+  

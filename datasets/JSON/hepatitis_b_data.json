@@ -1,0 +1,45 @@
+{
+    "FAQs": [
+      {
+        "question": "What is Hepatitis B?",
+        "answer": "Hepatitis B is a viral infection that affects the liver, and it can be acute or chronic. It is transmitted through contact with infected blood or bodily fluids."
+      },
+      {
+        "question": "How is Hepatitis B transmitted?",
+        "answer": "Hepatitis B is transmitted through contact with infected blood, semen, vaginal fluids, or from mother to baby during childbirth."
+      },
+      {
+        "question": "What are the symptoms of Hepatitis B?",
+        "answer": "Symptoms include fatigue, jaundice, abdominal pain, dark urine, joint pain, and nausea. Chronic Hepatitis B may be asymptomatic for years."
+      },
+      {
+        "question": "Can Hepatitis B be cured?",
+        "answer": "There is no cure for chronic Hepatitis B, but antiviral medications can manage the infection. Acute Hepatitis B may resolve on its own."
+      },
+      {
+        "question": "What happens if Hepatitis B is left untreated?",
+        "answer": "Untreated chronic Hepatitis B can lead to serious complications like liver cirrhosis, liver cancer, and liver failure."
+      },
+      {
+        "question": "Can Hepatitis B be asymptomatic?",
+        "answer": "Yes, many people with Hepatitis B may not show symptoms, especially in the early stages of infection."
+      },
+      {
+        "question": "How can I prevent Hepatitis B?",
+        "answer": "The best prevention is vaccination, along with avoiding exposure to infected blood and practicing safe sex."
+      },
+      {
+        "question": "Can Hepatitis B affect pregnancy?",
+        "answer": "Yes, Hepatitis B can be transmitted from mother to child during birth, but vaccination of the baby at birth can prevent infection."
+      },
+      {
+        "question": "How is Hepatitis B diagnosed?",
+        "answer": "Hepatitis B is diagnosed through blood tests that detect the virus or antibodies."
+      },
+      {
+        "question": "Is there a vaccine for Hepatitis B?",
+        "answer": "Yes, a highly effective vaccine is available to prevent Hepatitis B."
+      }
+    ]
+  }
+  

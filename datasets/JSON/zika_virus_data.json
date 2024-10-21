@@ -1,0 +1,45 @@
+{
+    "FAQs": [
+      {
+        "question": "What is Zika Virus?",
+        "answer": "Zika Virus is a virus transmitted primarily by Aedes mosquitoes, which can cause mild illness or serious birth defects if contracted during pregnancy."
+      },
+      {
+        "question": "How is Zika Virus transmitted?",
+        "answer": "Zika is transmitted through mosquito bites, sexual contact, and from mother to baby during pregnancy."
+      },
+      {
+        "question": "What are the symptoms of Zika Virus?",
+        "answer": "Symptoms include fever, rash, joint pain, and red eyes, or no symptoms at all."
+      },
+      {
+        "question": "Can Zika Virus be cured?",
+        "answer": "There is no specific treatment or cure for Zika, but symptoms are usually mild and can be managed with rest and fluids."
+      },
+      {
+        "question": "What happens if Zika Virus is left untreated?",
+        "answer": "Most cases resolve on their own, but Zika can cause serious birth defects like microcephaly in babies born to infected mothers."
+      },
+      {
+        "question": "Can Zika Virus be asymptomatic?",
+        "answer": "Yes, many people with Zika do not show symptoms but can still spread the virus."
+      },
+      {
+        "question": "How can I prevent Zika Virus?",
+        "answer": "Preventing mosquito bites by using repellents and wearing protective clothing, and using condoms during sex can reduce the risk of Zika."
+      },
+      {
+        "question": "Can Zika affect pregnancy?",
+        "answer": "Yes, Zika can cause birth defects, including microcephaly, if contracted during pregnancy."
+      },
+      {
+        "question": "How is Zika Virus diagnosed?",
+        "answer": "Zika is diagnosed through blood or urine tests to detect the virus or antibodies."
+      },
+      {
+        "question": "Is there a vaccine for Zika Virus?",
+        "answer": "No, there is currently no vaccine to prevent Zika Virus."
+      }
+    ]
+  }
+  

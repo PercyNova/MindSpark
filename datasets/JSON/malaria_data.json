@@ -1,0 +1,145 @@
+{
+  "FAQs": [
+    {
+      "question": "What is malaria?",
+      "answer": "Malaria is a parasitic disease transmitted through the bite of infected mosquitoes."
+    },
+    {
+      "question": "How is malaria spread?",
+      "answer": "Malaria spreads through the bites of infected female Anopheles mosquitoes."
+    },
+    {
+      "question": "Can malaria be cured?",
+      "answer": "Yes, malaria can be treated and cured with antimalarial medications."
+    },
+    {
+      "question": "How long does it take for malaria symptoms to appear?",
+      "answer": "Symptoms usually appear 10 days to 4 weeks after being bitten by an infected mosquito."
+    },
+    {
+      "question": "What are the symptoms of malaria?",
+      "answer": "Symptoms include fever, chills, sweating, headache, and body aches."
+    },
+    {
+      "question": "Who is most at risk for malaria?",
+      "answer": "Children, pregnant women, and travelers to malaria-endemic regions are at the highest risk."
+    },
+    {
+      "question": "Can I prevent malaria?",
+      "answer": "Yes, by using insecticide-treated bed nets, taking prophylactic medication, and avoiding mosquito bites."
+    },
+    {
+      "question": "Can I get malaria more than once?",
+      "answer": "Yes, multiple infections are possible, especially if traveling or living in endemic areas."
+    },
+    {
+      "question": "What is the best treatment for malaria?",
+      "answer": "Artemisinin-based combination therapies (ACTs) are the most effective treatment for Plasmodium falciparum malaria."
+    },
+    {
+      "question": "Is there a malaria vaccine?",
+      "answer": "Yes, the RTS,S/AS01 (Mosquirix) vaccine has been developed and is being used in some areas, but it is not 100% effective."
+    },
+    {
+      "question": "Can pregnant women get malaria?",
+      "answer": "Yes, and pregnant women are at higher risk of severe malaria."
+    },
+    {
+      "question": "How is malaria diagnosed?",
+      "answer": "Malaria is diagnosed with blood tests, including rapid diagnostic tests (RDTs) and blood smears."
+    },
+    {
+      "question": "What should I do if I think I have malaria?",
+      "answer": "Seek medical attention immediately to get tested and treated."
+    },
+    {
+      "question": "Is malaria contagious between people?",
+      "answer": "No, malaria is not spread from person to person, except through blood transfusions or from mother to child during pregnancy."
+    },
+    {
+      "question": "What are the complications of malaria?",
+      "answer": "Severe malaria can cause organ failure, coma, and death if not treated promptly."
+    },
+    {
+      "question": "How does malaria affect children?",
+      "answer": "Children under 5 are particularly vulnerable to severe malaria, which can lead to developmental delays and death."
+    },
+    {
+      "question": "What is drug-resistant malaria?",
+      "answer": "Drug-resistant malaria occurs when the Plasmodium parasites become resistant to antimalarial drugs, making treatment more difficult."
+    },
+    {
+      "question": "Can I get malaria in the United States?",
+      "answer": "Malaria was eradicated in the U.S. in the 1950s, but travelers can bring it back from endemic areas."
+    },
+    {
+      "question": "Why is malaria more common in Africa?",
+      "answer": "Africa has the ideal conditions for malaria transmission, including high temperatures, rainfall, and the presence of the Anopheles mosquito."
+    },
+    {
+      "question": "How can I avoid mosquito bites?",
+      "answer": "Use insect repellent, wear long sleeves and pants, and sleep under bed nets."
+    },
+    {
+      "question": "What are the side effects of antimalarial medications?",
+      "answer": "Side effects vary but can include nausea, headaches, and dizziness."
+    },
+    {
+      "question": "Can I die from malaria?",
+      "answer": "Yes, if left untreated, malaria can be fatal."
+    },
+    {
+      "question": "Is malaria seasonal?",
+      "answer": "Malaria transmission often peaks during rainy seasons when mosquitoes breed."
+    },
+    {
+      "question": "What is cerebral malaria?",
+      "answer": "Cerebral malaria is a severe form of the disease that affects the brain and can cause coma or death."
+    },
+    {
+      "question": "Can I donate blood if I’ve had malaria?",
+      "answer": "Most blood donation organizations have restrictions on donations from people who have had malaria."
+    },
+    {
+      "question": "What is the difference between P. falciparum and P. vivax?",
+      "answer": "P. falciparum causes the most severe cases of malaria, while P. vivax can cause relapsing infections."
+    },
+    {
+      "question": "Do mosquitoes die after transmitting malaria?",
+      "answer": "No, mosquitoes can continue to bite and transmit malaria to multiple people."
+    },
+    {
+      "question": "How is malaria controlled in endemic areas?",
+      "answer": "Through insecticide spraying, bed nets, and access to effective treatments like ACTs."
+    },
+    {
+      "question": "Can malaria be transmitted through water?",
+      "answer": "No, malaria is not waterborne; it is spread through mosquito bites."
+    },
+    {
+      "question": "How long does malaria last?",
+      "answer": "Without treatment, symptoms can persist for weeks, but proper treatment clears the infection."
+    },
+    {
+      "question": "Is malaria a virus or bacteria?",
+      "answer": "Malaria is caused by parasites, not viruses or bacteria."
+    },
+    {
+      "question": "Why is malaria hard to eradicate?",
+      "answer": "Malaria is challenging to eradicate due to mosquito resistance to insecticides, parasite resistance to drugs, and environmental factors."
+    },
+    {
+      "question": "Can animals get malaria?",
+      "answer": "Some animals, like birds and primates, can get their own forms of malaria, but these don’t affect humans."
+    },
+    {
+      "question": "How does malaria affect pregnancy?",
+      "answer": "Malaria in pregnancy can cause anemia, miscarriage, and low birth weight."
+    },
+    {
+      "question": "What should I do if my child has malaria?",
+      "answer": "Seek immediate medical attention for testing and treatment."
+    }
+  ]
+  }
+

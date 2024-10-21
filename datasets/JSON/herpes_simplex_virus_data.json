@@ -1,0 +1,45 @@
+{
+    "FAQs": [
+      {
+        "question": "What is Herpes Simplex Virus (HSV)?",
+        "answer": "HSV is a virus that causes herpes, which can appear as oral herpes (HSV-1) or genital herpes (HSV-2)."
+      },
+      {
+        "question": "How is HSV transmitted?",
+        "answer": "HSV is spread through direct contact with herpes sores, saliva, or genital fluids from an infected person."
+      },
+      {
+        "question": "What are the symptoms of HSV?",
+        "answer": "Symptoms include painful blisters or sores around the mouth or genital area, or no symptoms at all."
+      },
+      {
+        "question": "Can HSV be cured?",
+        "answer": "There is no cure for HSV, but antiviral medications can help manage outbreaks and reduce transmission."
+      },
+      {
+        "question": "What happens if HSV is left untreated?",
+        "answer": "While HSV typically does not cause serious health issues, recurrent outbreaks can occur, and in rare cases, HSV can lead to more severe infections."
+      },
+      {
+        "question": "Can HSV be asymptomatic?",
+        "answer": "Yes, many people with HSV may not show any symptoms, but the virus can still be transmitted."
+      },
+      {
+        "question": "How can I prevent HSV?",
+        "answer": "Using condoms and avoiding sexual contact during outbreaks can help reduce the risk of spreading HSV."
+      },
+      {
+        "question": "Can HSV affect pregnancy?",
+        "answer": "Yes, if a woman has an active HSV outbreak during childbirth, the virus can be passed to the baby, potentially leading to serious complications."
+      },
+      {
+        "question": "How is HSV diagnosed?",
+        "answer": "HSV is diagnosed through visual inspection of sores or through lab tests of fluid samples or blood tests."
+      },
+      {
+        "question": "Can HSV cause complications?",
+        "answer": "In rare cases, HSV can cause complications like meningitis or spread to other parts of the body, particularly in people with weakened immune systems."
+      }
+    ]
+  }
+  

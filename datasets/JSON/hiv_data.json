@@ -1,0 +1,85 @@
+{
+  "FAQs": [
+    {
+      "question": "Can HIV be cured?",
+      "answer": "No, HIV cannot be cured, but it can be effectively managed with ART."
+    },
+    {
+      "question": "How is HIV transmitted?",
+      "answer": "Through blood, semen, vaginal fluids, rectal fluids, and breast milk from an infected individual."
+    },
+    {
+      "question": "Can I get HIV from kissing?",
+      "answer": "No, HIV is not transmitted through saliva or casual contact, including kissing."
+    },
+    {
+      "question": "How long can someone live with HIV?",
+      "answer": "With proper treatment, individuals can live long and healthy lives."
+    },
+    {
+      "question": "What are the symptoms of HIV?",
+      "answer": "Symptoms range from flu-like symptoms in the early stages to severe immune system damage in advanced stages."
+    },
+    {
+      "question": "Can I lead a normal life with HIV?",
+      "answer": "Yes, individuals with HIV can lead normal lives with adherence to treatment."
+    },
+    {
+      "question": "Is there a vaccine for HIV?",
+      "answer": "Currently, there is no vaccine for HIV."
+    },
+    {
+      "question": "How often should I get tested for HIV?",
+      "answer": "It is recommended to get tested annually, or more frequently if you are at high risk."
+    },
+    {
+      "question": "What happens if I miss a dose of my ART?",
+      "answer": "Missing doses can lead to drug resistance; consult your healthcare provider."
+    },
+    {
+      "question": "Can I transmit HIV if I'm on ART?",
+      "answer": "If your viral load is undetectable, the risk of transmission is negligible."
+    },
+    {
+      "question": "Are there side effects to ART?",
+      "answer": "Yes, ART can have side effects; discuss these with your healthcare provider."
+    },
+    {
+      "question": "What should I do if I think I've been exposed to HIV?",
+      "answer": "Seek medical attention immediately; PEP may be an option if started within 72 hours."
+    },
+    {
+      "question": "Is it safe to have sex if I'm HIV positive?",
+      "answer": "Yes, with proper management and safe practices, it can be safe."
+    },
+    {
+      "question": "What are opportunistic infections?",
+      "answer": "These are infections that occur more frequently in individuals with weakened immune systems."
+    },
+    {
+      "question": "Can I still have children if I'm HIV positive?",
+      "answer": "Yes, with proper treatment and precautions, individuals with HIV can have children without transmitting the virus."
+    },
+    {
+      "question": "What is PrEP?",
+      "answer": "Pre-exposure prophylaxis (PrEP) is a medication taken to prevent HIV infection in high-risk individuals."
+    },
+    {
+      "question": "How can I support someone with HIV?",
+      "answer": "Provide emotional support, educate yourself about the disease, and help them access resources."
+    },
+    {
+      "question": "What are the long-term effects of HIV?",
+      "answer": "Long-term effects can include complications from HIV itself, medication side effects, and associated mental health issues."
+    },
+    {
+      "question": "Can I travel if I'm HIV positive?",
+      "answer": "Yes, but check regulations regarding HIV medications and disclosures in your destination country."
+    },
+    {
+      "question": "Is there a difference between HIV and AIDS?",
+      "answer": "Yes, HIV is the virus that causes the disease, while AIDS is the most severe phase of the infection."
+    }
+  ]
+}
+

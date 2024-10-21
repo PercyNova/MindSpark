@@ -1,0 +1,45 @@
+{
+    "FAQs": [
+      {
+        "question": "What is Hepatitis A?",
+        "answer": "Hepatitis A is a viral infection that causes inflammation of the liver, typically transmitted through ingestion of contaminated food or water."
+      },
+      {
+        "question": "How is Hepatitis A transmitted?",
+        "answer": "Hepatitis A is spread primarily through the consumption of food or water contaminated with feces from an infected person."
+      },
+      {
+        "question": "What are the symptoms of Hepatitis A?",
+        "answer": "Symptoms include fatigue, nausea, stomach pain, loss of appetite, jaundice, and dark urine."
+      },
+      {
+        "question": "Can Hepatitis A be cured?",
+        "answer": "There is no specific cure for Hepatitis A, but most people recover fully within a few weeks or months with supportive care."
+      },
+      {
+        "question": "What happens if Hepatitis A is left untreated?",
+        "answer": "Most cases resolve on their own, but in rare instances, Hepatitis A can lead to liver failure, especially in older adults or those with chronic liver disease."
+      },
+      {
+        "question": "Can Hepatitis A be asymptomatic?",
+        "answer": "Yes, many people, particularly children, may have Hepatitis A without showing any symptoms."
+      },
+      {
+        "question": "How can I prevent Hepatitis A?",
+        "answer": "Vaccination is the best way to prevent Hepatitis A, along with practicing good hand hygiene and avoiding contaminated food or water."
+      },
+      {
+        "question": "Can Hepatitis A affect pregnancy?",
+        "answer": "Hepatitis A can cause complications during pregnancy, but severe outcomes are rare. Pregnant women should be vaccinated if at risk."
+      },
+      {
+        "question": "How is Hepatitis A diagnosed?",
+        "answer": "Hepatitis A is diagnosed through blood tests that detect the virus or antibodies in the bloodstream."
+      },
+      {
+        "question": "Is there a vaccine for Hepatitis A?",
+        "answer": "Yes, there is a highly effective vaccine available to prevent Hepatitis A."
+      }
+    ]
+  }
+  

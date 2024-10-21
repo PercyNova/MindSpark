@@ -1,0 +1,45 @@
+{
+    "FAQs": [
+      {
+        "question": "What is Hepatitis C?",
+        "answer": "Hepatitis C is a viral infection that causes liver inflammation, often leading to chronic liver disease. It is mainly spread through contact with infected blood."
+      },
+      {
+        "question": "How is Hepatitis C transmitted?",
+        "answer": "Hepatitis C is primarily spread through contact with infected blood, often through shared needles or contaminated medical equipment."
+      },
+      {
+        "question": "What are the symptoms of Hepatitis C?",
+        "answer": "Many people with Hepatitis C have no symptoms, but some may experience fatigue, jaundice, dark urine, and abdominal pain."
+      },
+      {
+        "question": "Can Hepatitis C be cured?",
+        "answer": "Yes, Hepatitis C can be cured with antiviral medications that eliminate the virus from the body."
+      },
+      {
+        "question": "What happens if Hepatitis C is left untreated?",
+        "answer": "If untreated, Hepatitis C can lead to serious liver complications, including cirrhosis, liver cancer, and liver failure."
+      },
+      {
+        "question": "Can Hepatitis C be asymptomatic?",
+        "answer": "Yes, many people with Hepatitis C show no symptoms until liver damage has occurred."
+      },
+      {
+        "question": "How can I prevent Hepatitis C?",
+        "answer": "Avoiding exposure to contaminated blood, using clean needles, and practicing safe sex can help prevent Hepatitis C."
+      },
+      {
+        "question": "Can Hepatitis C affect pregnancy?",
+        "answer": "Hepatitis C can be transmitted from mother to baby during childbirth, but the risk is relatively low."
+      },
+      {
+        "question": "How is Hepatitis C diagnosed?",
+        "answer": "Hepatitis C is diagnosed through blood tests that detect the virus or antibodies in the bloodstream."
+      },
+      {
+        "question": "Is there a vaccine for Hepatitis C?",
+        "answer": "No, there is currently no vaccine for Hepatitis C."
+      }
+    ]
+  }
+  
