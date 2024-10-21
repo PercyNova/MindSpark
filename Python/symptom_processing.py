@@ -107,7 +107,33 @@ def calculate_similarity(user_input):
     similarities.sort(key=lambda x: x[2], reverse=True)
     return similarities
 
+#Data loading function
+def load_data(file_path):
+    try:
+        return pd.read_excel(file_path)
+    except FileNotFoundError:
+        print(f"Error: The file {file_path} was not found.")
+        return None
+    except Exception as e:
+        speak(f"An error occurred while loading data: {str(e)}")
+        return None
 
+#Fuzzy matching function for diseases
+def find_top_diseases_fuzzy(symptoms, file_path, top_n=5):
+    df = load_data(file_path)
+    if df is None:
+        return []
+
+    matched_diseases = []
+    for symptom in symptoms:
+        for index, row in df.iterrows():
+            spreadsheet_symptoms = row['Symptoms'].split(', ')
+            best_match, score = process.extractOne(symptom, spreadsheet_symptoms, scorer=fuzz.token_sort_ratio)
+            if score > 75:
+                matched_diseases.append((row['Disease'], row['Symptoms'], best_match, score, row['Severity']))
+
+    matched_diseases.sort(key=lambda x: x[3], reverse=True)
+    return matched_diseases[:top_n]
 
 #Direct match function
 def find_direct_match(user_input):
