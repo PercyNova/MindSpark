@@ -45,7 +45,34 @@ MINOR_SYMPTOMS = symptom_severity_dict['MINOR_SYMPTOMS']
 AMBIGUOUS_SYMPTOMS = symptom_severity_dict['AMBIGUOUS_SYMPTOMS']
 ALL_SYMPTOMS = {**CRITICAL_SYMPTOMS, **MINOR_SYMPTOMS, **AMBIGUOUS_SYMPTOMS}
 
+#Text preprocessing function
+def preprocess_text(text):
+    tokens = word_tokenize(text.lower())
+    processed_tokens = [lemmatizer.lemmatize(token) for token in tokens if token not in stop_words]
+    return processed_tokens
 
+# Symptom detection function
+def detect_symptoms_from_input(text, all_symptoms):
+    processed_tokens = preprocess_text(text)
+    detected_symptoms = []
+    
+    for symptom, variations in all_symptoms.items():
+        for variation in variations:
+            variation_tokens = preprocess_text(variation)
+            if all(token in processed_tokens for token in variation_tokens):
+                detected_symptoms.append(symptom)
+                break
+    
+    return list(set(detected_symptoms))
+
+#AI specialist
+
+#Direct match function
+def find_direct_match(user_input):
+    for symptom, variations in ALL_SYMPTOMS.items():
+        if user_input in variations or user_input == symptom:
+            return symptom
+    return None
 
 #Severity mapping and determination functions
 def map_severity_string_to_score(severity_str):
