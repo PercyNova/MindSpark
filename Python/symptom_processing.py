@@ -26,3 +26,12 @@ def speak(text):
     print(text)
     engine.say(text)
     engine.runAndWait()
+
+#NLTK setup and preprocessing
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+nltk.download('wordnet', quiet=True)
+
+lemmatizer = WordNetLemmatizer()
+stop_words = set(stopwords.words('english'))
+
