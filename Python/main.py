@@ -24,10 +24,10 @@ def speak_text(engine, text):
 class HealthQueryProcessor:
     def __init__(self):
         #File path setup
-        self.json_directory = r'C:\Users\cweng\Documents\GitHub\MindSpark\MindSpark AI Project\Python\Datasets\JSON'
+        self.json_directory ='../datasets'
         self.severity_dict_path = os.path.join(self.json_directory, 'severity_dict.json')
         self.common_faqs_path = os.path.join(self.json_directory, 'common_FAQs.json')
-        self.excel_path = r'C:\Users\cweng\Documents\GitHub\MindSpark\MindSpark AI Project\Python\Datasets\CSV\symptom_data.xlsx'
+        self.excel_path =../datasets/symptom_data.xlsx'
         self.load_data()
         self.tts_engine = init_tts()  
         self.issued_tickets = {}
